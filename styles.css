@@ -240,10 +240,8 @@ hr{
     }
    .overlay {
     position: absolute;
+       left: 50%;
   }
-
-  .overlay-content {
-    width: 80%;
 }
 
 
