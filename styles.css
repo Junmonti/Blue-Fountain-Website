@@ -238,10 +238,12 @@ hr{
     .single-service:hover .service-desc{
         bottom: 30% !important;
     }
-    .overlay{
+   .overlay {
+    position: absolute;
+  }
+
+  .overlay-content {
     width: 80%;
-    position: Relative;
-}
 }
 
 
