@@ -224,7 +224,7 @@ hr{
     bottom: 40%;
     opacity: 1;
 }
-@media screen and (max-width: 770px){
+@media screen and (max-width: 768px){
     .single-service{
         flex-basis: 100%;
         margin-bottom: 30px;
@@ -239,7 +239,7 @@ hr{
         bottom: 30% !important;
     }
     .overlay{
-         width: 80%;
+    width: 80%;
 }
 }
 
