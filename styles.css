@@ -224,7 +224,7 @@ hr{
     bottom: 40%;
     opacity: 1;
 }
-@media screen and (max-width: 768px){
+@media screen and (max-width: 770px){
     .single-service{
         flex-basis: 100%;
         margin-bottom: 30px;
@@ -238,10 +238,18 @@ hr{
     .single-service:hover .service-desc{
         bottom: 30% !important;
     }
-   .overlay {
-    position: absolute;
-       left: 50%;
-  }
+    .overlay{
+        width: 98%;
+        height: 75.5%;
+        position: absolute;
+        top: 0;
+        left: 4.5;
+        border-radius: 7px;
+        cursor: pointer;
+        background: linear-gradient(rgba(0,0,0,0.5),#005296);
+        opacity: 0;
+        transition: 1s;
+    }
 }
 
 
@@ -391,4 +399,3 @@ body {
         top: 24%;
     }
 }
-
