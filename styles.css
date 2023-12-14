@@ -240,6 +240,7 @@ hr{
     }
     .overlay{
     width: 80%;
+    position: Relative;
 }
 }
 
